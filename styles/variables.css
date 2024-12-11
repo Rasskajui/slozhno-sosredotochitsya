@@ -2,3 +2,19 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --bg-color: #000028;
+  --accent-color: #FF0070;
+  --main-text-color: #F1B2CE;
+  --accent-text-color: var(--accent-color);
+
+  --bg-image-url: url(../images/cover-image-dark.png);
+  --title-color: #DB00FF;
+  --decore-visibility: visible;
+
+  --section-title-color: var(--bg-color);
+
+  --font-size: 18px;
+  --gap-sm: 10px;
+  --gap-m: 20px;
+}
