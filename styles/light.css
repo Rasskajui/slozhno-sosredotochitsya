@@ -14,9 +14,28 @@
   --main-text-color: #353430;
   --accent-text-color: var(--main-text-color);
 
+  --accent-text-color-pale: rgba(50, 49, 45, .4);
+
   --bg-image-url: url(../images/cover-image-light.png);
   --title-color: #FFC2E6;
   --decore-visibility: hidden;
 
-  --section-title-color: var(--main-color);
+  --section-title-color: var(--main-text-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF1F7;
+    --accent-color: #FF8DCB;
+    --main-text-color: #353430;
+    --accent-text-color: var(--main-text-color);
+  
+    --accent-text-color-pale: rgba(50, 49, 45, .4);
+  
+    --bg-image-url: url(../images/cover-image-light.png);
+    --title-color: #FFC2E6;
+    --decore-visibility: hidden;
+  
+    --section-title-color: var(--main-text-color);
+  }
 }
