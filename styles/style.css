@@ -13,6 +13,11 @@
   justify-content: center;
   width: 100% ;
   gap: 40px;
+
+  background-image: var(--bg-image-url);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /* REPEATING STYLES */
@@ -40,11 +45,6 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr auto 1fr;
   height: max(100vh, 668px);
-
-  background-image: var(--bg-image-url);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .decorated-zone {
